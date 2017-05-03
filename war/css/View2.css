@@ -1,0 +1,118 @@
+.sp-panel {
+	width: 100%;
+	height: 92%;
+	margin: 0 auto;
+	-webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
+	-moz-animation: fadein 4s; /* Firefox < 16 */
+	-ms-animation: fadein 4s; /* Internet Explorer */
+	-o-animation: fadein 4s; /* Opera < 12.1 */
+	animation: fadein 4s;
+}
+
+.vp-panel {
+	height: 80%;
+	width: 80%;
+	margin: 0 auto;
+	-webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
+	-moz-animation: fadein 4s; /* Firefox < 16 */
+	-ms-animation: fadein 4s; /* Internet Explorer */
+	-o-animation: fadein 4s; /* Opera < 12.1 */
+	animation: fadein 4s;
+}
+
+.thumbnail-image {
+	height: 60%;
+	width: 100%;
+	margin: 0 auto;
+	padding-top: 1%;
+	-webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
+	-moz-animation: fadein 4s; /* Firefox < 16 */
+	-ms-animation: fadein 4s; /* Internet Explorer */
+	-o-animation: fadein 4s; /* Opera < 12.1 */
+	animation: fadein 4s;
+}
+
+.view-2-text {
+	font-family: Verdana, Geneva, sans-serif;
+	padding-top: 2%;
+	padding-bottom: 3%;
+	font-size: 1.2em;
+	color: #eef7f3;
+	-webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
+	-moz-animation: fadein 4s; /* Firefox < 16 */
+	-ms-animation: fadein 4s; /* Internet Explorer */
+	-o-animation: fadein 4s; /* Opera < 12.1 */
+	animation: fadein 4s;
+}
+
+.view-2-images {
+	padding-top: 2%;
+	width: 100%;
+	height: 75%;
+}
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+
+}
+@media only screen and (max-width: 1200px) {
+	.view-2-images {
+		height: 62%;
+	}
+	.sp-panel {
+		height: 91%;
+	}
+}
+
+@media only screen and (max-width: 1000px) {
+	.view-2-images {
+		height: 53%;
+	}
+}
+
+@media only screen and (max-width: 800px) {
+	.view-2-images {
+		height: 43%;
+	}
+	.view-2-text {
+		font-size: 1.0em;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.view-2-images {
+		height: 32%;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+	.view-2-images {
+		height: 20%;
+	}
+}
